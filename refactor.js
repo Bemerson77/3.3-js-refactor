@@ -83,7 +83,7 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
+/** The answer is [c] because x has not been called, z is printed to the console first because y has a setTimeout delay set to it. **/
 
 // -----------------------------------------------
 
