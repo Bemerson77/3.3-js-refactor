@@ -104,8 +104,14 @@ var reverseStr = function(str) {
   return str;
 };
 
-// Put your answer below -------------------------
 
+
+// Put your answer below -------------------------
+var reverseStr = function(str){
+  return str.split("").reverse().join("");
+};
+
+console.log(reverseStr('i did it'));
 
 // -----------------------------------------------
 
