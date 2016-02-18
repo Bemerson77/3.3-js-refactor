@@ -292,7 +292,20 @@ var accelerate = function(amount) {
 
 
 // Put your answer below -------------------------
+var speed = 0;
 
+var accelerate = function(amount) {
+
+  if (isNaN(amount)) {
+    return 1;
+  }else {
+    return speed += amount;
+  }
+};
+
+console.log(accelerate());
+
+/** Not quite sure about this one. I was able to get the desired outcome with the answer. But the only way the original would return NaN is if I would add return to the body of the function, as it is now it say it is undefined.  **/
 
 
 // -----------------------------------------------
