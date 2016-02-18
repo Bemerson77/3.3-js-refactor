@@ -226,6 +226,17 @@ var decreaseScore = function() {
 };
 
 // Put your answer below -------------------------
+(function () {
+var score = 0;
+
+var increaseScore = function() {
+  score++;
+};
+
+var decreaseScore = function() {
+  score--;
+};
+})();
 
 
 // -----------------------------------------------
@@ -246,7 +257,6 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
-
 
 // -----------------------------------------------
 
@@ -271,7 +281,10 @@ var accelerate = function(amount) {
   speed += amount;
 };
 
+
+
 // Put your answer below -------------------------
+
 
 
 // -----------------------------------------------
